@@ -1,6 +1,5 @@
 # r2p2
 Repository for project regarding the business Café Frederiksberg.
-HEJ SIMON
 
 GITHUB: Webbaseret hosting
 Opret en bruger på https://github.com/

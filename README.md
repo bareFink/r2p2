@@ -2,12 +2,11 @@
 Repository for project regarding the business Café Frederiksberg.
 
 GITHUB: Webbaseret hosting
-Opret en bruger på https://github.com/
-Send mig dit brugernavn så giver jeg dig adgang til at redigere i filen
 
 GIT: Version control system
 Installer git: https://git-scm.com/downloads
 Husk at tryk “run git from command line”
+
 Naviger til mappen “htdocs” med  Command prompt (CMD) typisk “cd C:\xampp\htdocs”
 “git clone https://github.com/simoneliasen/r2p2.git” for at få filerne fra github
 “git config user.name "Jens Jensen" Sæt dit brugernavn

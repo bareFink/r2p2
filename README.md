@@ -1,46 +1,41 @@
-# R2P2
-Repository for project regarding the business Café Frederiksberg.
+Installer git
+Installer git: https://git-scm.com/downloads
+Husk at tryk “run git from command line”
 
-GITHUB: Webbaseret hosting
+Opret en bruger på github
 Opret en bruger på https://github.com/
 Send mig dit brugernavn så giver jeg dig adgang til at redigere i filen
 
-GIT: Version control system
-Installer git: https://git-scm.com/downloads
-Husk at tryk “run git from command line”
-Naviger til mappen “htdocs” med  Command prompt (CMD) typisk “cd C:\xampp\htdocs”
+Opret forbindelse til github med git (kun første gang)
+Navigere til din lokale folder hvor du vil have projektet m. cmd (htdocs mappen anbefales) “cd C:\xampp\htdocs”
 “git clone https://github.com/simoneliasen/r2p2.git” for at få filerne fra github
-“git config user.name "Jens Jensen" Sæt dit brugernavn
+“git config user.name "Jens Jensen"” Sæt dit brugernavn
 “git config user.name” Tjek  om ændringerne til brugernavn blev registreret
 
-GIT BRANCHES: Forskellige grene for ikke at ødelægge “hovedkoden”
-master: 100% færdig materiale klar til deployment (upload ikke selv hertil)
-dev: den branch du uploader færdig kode til (dobbelttjek at den virker før du commiter)
 
-HENT FILER FRA GITHUB m. GIT (gør det hver gang du vil påbegynde kodning)
+Få de seneste opdateringer fra github mappen (gør det hver gang)
 Navigere til din lokale folder med projektet via CMD
-“git pull origin dev” for at få de seneste opdateringer på projektet
+“git pull origin dev” (du har nu den seneste version af filerne)
 
-SEND FILER TIL GITHUB m. GIT (gør det hver gang du har færdiggjort kode)
+Send ny kode til github mappen
 Navigere til din lokale folder med projektet via CMD
 “git add .” for at registrere dine ændringer lokalt
 “git commit -m “indsæt kommentar her”“ (opdatere m. kommentar lokalt)
 “git push origin dev” - sender lortet til github
 
+Regler ved brug
+Arbejd på konkrete ting (lav ikke små-ændringer over det hele)
+Triple check din kode før du sender den på github (husk at clear cache)
+Push altid din kode når du er færdig (vent ikke)
+Arbejd inden for en rimelig tidsramme (ikke over flere dage)
+Rør ikke merge errors 
+
+
+GIT BRANCHES: Forskellige grene for ikke at ødelægge “hovedkoden”
+master: 100% færdig materiale klar til deployment (upload ikke selv hertil)
+dev: den branch du uploader færdig kode til (dobbelttjek at den virker før du sender dertil)
+
 MERGE ERRORS
 Hvis der står merge error så skriv til en som kan løse det (eksperimenter ikke selv)
 
-DE UBRYDELIGE REGLER
-Rør ikke merge errors selv
-Arbejd på konkrete ting på siden
-Trippel-check din kode før du pusher til github (også med  slettet cache (CTRL-F5))
-Push altid din kode efter du er færdig med at arbejde på noget
-Du burde arbejde på noget koncentreret i korte tidsperiode (timer) i stedet for dage, da der vil opstå ændringer i koden af andre der pusher og vi så vil få merge errors
-Arbejd på konkrete områder af koden, dette gør troubleshooting lettere
 
-Andre git kommandoer
-“git log” - viser alle commits
-“git status” - viser ændringer du ikke har committet (evt. tjek hver gang du er færdig)
-“git checkout dev” - ændre din nuværende branch til at være “dev” (frarådes at pille ved)
-
-(please ikke eksperimenter med yderligere kommandoer på projektet)

@@ -43,9 +43,6 @@
 <p> Welcome to this very exciting webpage </p>
 <p> Welcome to this very exciting webpage </p>
 <p> Welcome to this very exciting webpage </p>
-
-
-
 </div>
 
 <!--Indrag footer fra filen includes/footer.php-->

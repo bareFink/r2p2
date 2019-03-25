@@ -1,35 +1,44 @@
 
+
+
+/*Full width navigation   */
 .fullWidthNavigation {
-  background-color: red;
-  width: 100%
+  background-color: black;;
+  width: 100%;
 }
 
-.fullWidthFooter {
-  background-color: red;
-  width: 100%
-}
 
+/*Containerd navigation bar  */
 nav {
-  background-color: blue;
+  background-color: black;
 }
 
-/* Indhold Content for index side */
+/*Full width footer   */
+.fullWidthFooter {
+  background-color: black;
+  width: 100%;
+}
+
+/*Fixed width footer  */
+footer {
+  background-color: black;;
+}
+
+
+/* Indhold på  index side */
 .index {
   background-color: black;
 }
-/*Content for template  */
+/*Indhold på template side  */
 .template {
+}
 
-}
-footer {
-  background-color: blue;
-}
 
 h1 {font-family: 'Playfair Display', serif; color: gold;}
 h2 {font-family: 'Playfair Display', serif;}
 h3 {font-family: 'Playfair Display', serif;}
 h4 {font-family: 'Playfair Display', serif;}
-p {font-family: 'Poppins', sans-serif;}
+p {font-family: 'Poppins', sans-serif; color: white;}
 
 /* GOOGLE FONTS (ADD WEIGTH + SIZE)
 font-family: 'Playfair Display', serif;

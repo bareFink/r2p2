@@ -1,3 +1,2 @@
-  <nav>
-    <p> This is a Header! </p>
-  </nav>
+
+  <nav><p> This is a Header! </p></nav>

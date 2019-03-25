@@ -28,7 +28,7 @@ Arbejd på konkrete ting (lav ikke små-ændringer over det hele)
 Triple check din kode før du sender den på github (husk at clear cache)
 Push altid din kode når du er færdig (vent ikke)
 Arbejd inden for en rimelig tidsramme (ikke over flere dage)
-Rør ikke merge errors 
+Rør ikke merge errors
 
 
 GIT BRANCHES: Forskellige grene for ikke at ødelægge “hovedkoden”
@@ -37,5 +37,3 @@ dev: den branch du uploader færdig kode til (dobbelttjek at den virker før du 
 
 MERGE ERRORS
 Hvis der står merge error så skriv til en som kan løse det (eksperimenter ikke selv)
-
-

@@ -1,5 +1,7 @@
 <div class="fullWidthNavigation">
   <nav class="container">
-    <p> This is a Header! </p>
+    <div class="logo">
+    <h4 id="logo"> Café Frederiksberg</h4>
+</div>
   </nav>
 </div>

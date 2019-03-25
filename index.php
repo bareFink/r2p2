@@ -5,29 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <!--Side titel  -->
   <title>Café Frederiksberg</title>
-
+  <!--Stylesheets  -->
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
-
 </head>
-
 <body>
-
-<!--Indrager header fra filen includes/header.php-->
+<!--Inddrager navigationsbar fra "includes/header.php"-->
 <?php include 'includes/header.php'; ?>
-
-<!-- Indhold på siden -->
+<!-- Container til indhold på siden -->
 <div class="container">
-<!--Indrag header fra filen includes/header.php-->
 
-<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content aboutUs eks))-->
+
+<!--Indhold på siden-->
 <div class="content index">
 <h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
 <p> Welcome to this very exciting webpage </p>
@@ -43,14 +37,20 @@
 <p> Welcome to this very thomas the  </p>
 <p> Welcome to this very exciting webpage </p>
 <p> Welcome to this very exciting webpage </p>
-</div>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage ændring</p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage ?!?!?!?!? </p>
+<p> Welcome to this very thomas the  </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
 </div>
 
-<!--Indrag footer fra filen includes/footer.php-->
+
+
+
+</div>
+<!--Inddrager footer fra "includes/footer.php"-->
 <?php include 'includes/footer.php'; ?>
-
-
-
 </body>
-
 </html>

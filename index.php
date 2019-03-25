@@ -14,21 +14,15 @@
 
 <body>
 
-  <!--Menu /Header m. logo  -->
-  <nav>
-    <h1> Café Frederiksberg</h1>
-  </nav>
+  <!--Indrag header fra filen includes/-->
+<?php include: 'includes/header.php' ?>
 
-<!--Slider  -->
-  <div class="slider"> </div>
+<p> indsæt content her </p>
 
-<!--Kategorier: mad/drikke/events  -->
-  <div class="categories"> </div>
-<!-- Anden info  -->
-  <div class="info"> </div>
+  <!--Indrag header fra filen includes/-->
+<?php include: 'includes/footer.php' ?>
 
-  <!--Footer  -->
-  <footer> </footer>
+
 </body>
 
 </html>

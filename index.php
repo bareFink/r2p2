@@ -14,6 +14,8 @@
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
   <!-- Normalize stylesheet  -->
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- Includer Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
 
 </head>
 
@@ -25,10 +27,25 @@
 <!--Indrag header fra filen includes/header.php-->
 <?php include 'includes/header.php'; ?>
 
-<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content forside eks))-->
-<div class="content template">
-<h1> Hello world </h1>
+<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content about us eks))-->
+<div class="content index">
+<h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
 <p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+
+
+
 </div>
 
 <!--Indrag footer fra filen includes/footer.php-->

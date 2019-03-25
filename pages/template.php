@@ -7,32 +7,35 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!--Side titel  -->
-  <title>Template</title>
-
+  <title>Café Frederiksberg</title>
   <!--Standard stylesheet  -->
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
   <!-- Skeleton stylesheet  -->
-  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../css/skeleton.css">
   <!-- Normalize stylesheet  -->
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+  <!-- Includer Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
 
 </head>
 
 <body>
-<!--Container for centreret indhold på hele siden  -->
+
+<!-- Indsætter siden i en centreret container -->
 <div class="container">
 
 <!--Indrag header fra filen includes/header.php-->
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 
-<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content forside eks))-->
+<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content about us eks))-->
 <div class="content template">
-<h1> Hello world </h1>
-<p> Welcome to this very exciting webpage </p>
+<h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
+<p> Indsæt tekst her </p>
 </div>
 
 <!--Indrag footer fra filen includes/footer.php-->
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
+</div>
 
 
 </body>

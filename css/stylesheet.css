@@ -1,15 +1,35 @@
-h1 {
-  color: gold;
-}
-
 nav {
   background-color: blue;
 }
 
-.template {
+/* Content for index side */
+.index {
   background-color: black;
 }
 
 footer {
   background-color: blue;
 }
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: gold;
+}
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* GOOGLE FONTS (ADD WEIGTH + SIZE)
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/

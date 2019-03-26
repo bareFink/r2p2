@@ -30,9 +30,19 @@ nav {
   background-color: blue;
   height: 80vh;
 }
-.onlineBestilling{
+
+/*Wrapper farve for onlineBestilling  */
+.wrapper.onlineBestilling{
   background-color: red;
 }
+/*Container farve for onlineBestilling  */
+.container.onlineBestilling {
+  background-color: pink;
+}
+
+/*Farve for alle divs hvor "introHistorie er div"  
+Rammer både ".container.introHistorie"
+og "wrapper.introHistorie"*/
 .introHistorie{
   background-color: green;
 }
@@ -51,6 +61,7 @@ nav {
   background-color: brown;
   height: 20vh;
 }
+
 
 
 

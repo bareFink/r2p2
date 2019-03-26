@@ -15,41 +15,50 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Poppins" rel="stylesheet">
 </head>
 <body>
+
 <!--Inddrager navigationsbar fra "includes/header.php"-->
 <?php include 'includes/header.php'; ?>
-<!-- Container til indhold på siden -->
+
+<!--Slidercontainer (behøver ikke container, da den ikke umiddelbart skal være centreret) -->
+<div class="content slider">
+    <p> her kommer der til at være en slider </p>
+  </div>
+</div>
+
+
+<!-- Container til Indhold -->
 <div class="container">
-
-
-<!--Indhold på siden-->
-<div class="content index">
+<!--Indhold centreret i containeren-->
+<div class="content bestilling">
 <h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage ændring</p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage ?!?!?!?!? </p>
-<p> Welcome to this very thomas the  </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage ændring</p>
-<p> Welcome to this very exciting webpage </p>
-<p> Welcome to this very exciting webpage ?!?!?!?!? </p>
 <p> Welcome to this very thomas the  </p>
 <p> Welcome to this very exciting webpage </p>
 <p> Welcome to this very exciting webpage </p>
 </div>
-
-
-
-
 </div>
+
+<!-- Container til Indhold -->
+<div class="container">
+<!--Indhold centreret i containeren-->
+<div class="content katalog">
+<h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
+<p> Welcome to this very thomas the  </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+</div>
+</div>
+
+<!-- Container til Indhold -->
+<div class="container">
+<!--Indhold centreret i containeren-->
+<div class="content events">
+<h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
+<p> Welcome to this very thomas the  </p>
+<p> Welcome to this very exciting webpage </p>
+<p> Welcome to this very exciting webpage </p>
+</div>
+</div>
+
 <!--Inddrager footer fra "includes/footer.php"-->
 <?php include 'includes/footer.php'; ?>
 </body>

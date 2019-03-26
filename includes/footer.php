@@ -1,5 +1,5 @@
   <div class="fullWidthFooter">
     <footer class="container">
-      <p> This is a Footer! </p>
+      <p> Her kommer der til at være en fucking footer! </p>
     </footer>
   </div>

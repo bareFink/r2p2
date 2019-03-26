@@ -1,13 +1,14 @@
 /* Cut this from skeleton.css to here  */
-h1 {font-family: 'Playfair Display', serif; color: gold;}
-h2 {font-family: 'Playfair Display', serif;}
-h3 {font-family: 'Playfair Display', serif;}
-h4 {font-family: 'Playfair Display', serif;}
-p {font-family: 'Poppins', sans-serif; color: white;}
+h1 {font-family:'Playfair Display', serif; color: gold; margin: 0;}
+h2 {font-family:'Playfair Display', serif;}
+h3 {font-family:'Playfair Display', serif;}
+h4 {font-family:'Playfair Display', serif;}
+p {font-family:'Poppins', sans-serif; color: white;}
 /* GOOGLE FONTS (ADD WEIGTH + SIZE)
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 */
+
 
 /*Full width navigation   */
 .fullWidthNavigation {
@@ -16,12 +17,46 @@ font-family: 'Poppins', sans-serif;
 }
 /*Fixed width header*/
 nav {
-  background-color: #101010;
+  background-color: #34495e;
 }
 /*Placeholder for logo  */
 #logo {
   color: #F9DB41;
 }
+
+
+/*Forside  */
+.slider {
+  background-color: blue;
+  height: 80vh;
+}
+.onlineBestilling{
+  background-color: red;
+}
+.introHistorie{
+  background-color: green;
+}
+.indholdsoversigt{
+  background-color: yellow;
+  text-align: center;
+}
+
+.katalog{
+  background-color: orange;
+}
+.kommendeEvents{
+  background-color: pink;
+}
+.googleMaps{
+  background-color: brown;
+  height: 20vh;
+}
+
+
+
+
+
+
 
 
 /*Full width footer   */
@@ -31,7 +66,7 @@ nav {
 }
 /*Fixed width footer  */
 footer {
-  background-color: #101010;;
+  background-color: #34495e;;
 }
 
 
@@ -43,4 +78,3 @@ footer {
 .template {
   background-color: #101010;
 }
-

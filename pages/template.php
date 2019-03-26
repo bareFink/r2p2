@@ -21,21 +21,46 @@
 
 <body>
 
-<!-- Indsætter siden i en centreret container -->
-<div class="container">
 
-<!--Indrag header fra filen includes/header.php-->
-<?php include '../includes/header.php'; ?>
+<!--Indsætter navigationsbar fra filen includes/navigation.php-->
+<?php include '../includes/navigation.php'; ?>
 
-<!--Indhold på siden (tilføj forskelligt sub-div afhængigaf side (så content about us eks))-->
-<div class="content template">
-<h1> Velkommen til forsiden, her er der nogle sjove facts om Café frederiksberg </h1>
-<p> Indsæt tekst her </p>
+<!-- Indsætter slider  -->
+<div class="content slider">
+  <h1> her kommer der til at være en slider </h1>
 </div>
+</div>
+
+
+<!--Eksempel m. 3-delt container og overskrift  -->
+<div class="wrapper indholdsoversigt">
+  <!--Indhold centreret i wrapper-->
+  <div class="container indholdsoversigt">
+    <h1> Her kommer der til at være en indholdsoversigt </h1>
+    <!-- opretter række, som elementer let kan placeres i-->
+    <div class="row indholdsoversigt">
+      <!--Opsætter kolonner der hver fylder 3 ud af 12 bredde (tjek hjemmeside skeletons hjemmeside)  -->
+      <div class="three columns">
+        <h2>RESTAURANT</h2>
+      </div>
+      <div class="three columns">
+        <h2>BAR</h2>
+      </div>
+      <div class="three columns">
+        <h2>EVENTS</h2>
+      </div>
+      <div class="three columns">
+        <h2>SELSKABER</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!--Indrag footer fra filen includes/footer.php-->
 <?php include '../includes/footer.php'; ?>
-</div>
+
 
 
 </body>

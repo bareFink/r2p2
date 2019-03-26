@@ -1,16 +1,17 @@
 Opsæt statisk layout for hele siden
--forside(index)
--Header
--Fooder
--Restaurant
--Bar
--Events
--selskaber
---Buffet
---Selskabsmenu
---Arrangementer
+
+- forside(index)
+- Header
+- Fooder
+- Restaurant
+- Bar
+- Events
+- selskaber
+- Buffet
+- Selskabsmenu
+- Arrangementer
 - Kontakt
--café frederiksberg tidslinje (where to put it?)
+- café frederiksberg tidslinje (where to put it?)
 - Side for kunstnere der vil spille
 - Adminpanel
 - Bookingsystem

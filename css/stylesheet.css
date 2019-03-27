@@ -229,7 +229,7 @@ og "wrapper.introHistorie"*/
 /*Fixed width footer  */
 footer {
   background-color: #34495e;
-  ;
+
 }
 
 
@@ -249,6 +249,6 @@ footer {
 
 /* SELSKABSMENU*/
 
-.selskabsmenu-textcenter {
-  text-align: center;
+.SMenu-textleft {
+  text-align: left
 }

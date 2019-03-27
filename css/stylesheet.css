@@ -80,30 +80,85 @@ font-family: 'Poppins', sans-serif;
 
 
 /*..............................................B NAVIATIONSBAR */
+<<<<<<< HEAD
 .fullWidthNavigation {
+=======
+/*Full width navigation   */
+.navigationbar {
+>>>>>>> 71d27a4b5b73092fe34396d86d7ea9d2a6d27849
   background-color: #101010;;
   position: fixed; /* Set the navbar to fixed position */
    top: 0; /* Position the navbar at the top of the page */
    width: 100%;
   }
-}
 
 /*Fixed width header*/
 nav {
   background-color: #34495e;
 }
+
 /*Placeholder for logo  */
+
+.logo {
+  display: inline;
+}
 #logo {
   color: #F9DB41;
+  display: inline;
 }
 
 /*..............................................C HEADER */
 
 /*..............................................D FOOTER */
 
+/*Full width footer   */
+.fullWidthFooter {
+  background-color: #101010;
+  width: 100%;
+}
+
+.navigationmenu > p {
+  display: inline;
+
+}
+/*Fixed container in footer  */
+footer {
+  background-color: #34495e;;
+}
+
+
 /*..............................................E GENEREL */
 
 /*..............................................1 INDEX */
+.slider {
+  background-color: blue;
+  height: 80vh;
+}
+/*Wrapper farve for onlineBestilling  */
+.wrapper.onlineBestilling{
+  background-color: red;
+}
+/*Container farve for onlineBestilling  */
+.container.onlineBestilling {
+  background-color: pink;
+}
+.introHistorie{
+  background-color: green;
+}
+.indholdsoversigt{
+  background-color: yellow;
+  text-align: center;
+}
+.katalog{
+  background-color: orange;
+}
+.kommendeEvents{
+  background-color: pink;
+}
+.googleMaps{
+  background-color: brown;
+  height: 20vh;
+}
 
 /*..............................................2 ADMIN */
 
@@ -118,62 +173,8 @@ nav {
 /*..............................................7 RESTAURANT */
 
 
-/*Forside  */
-.slider {
-  background-color: blue;
-  height: 80vh;
-}
-
-/*Wrapper farve for onlineBestilling  */
-.wrapper.onlineBestilling{
-  background-color: red;
-}
-/*Container farve for onlineBestilling  */
-.container.onlineBestilling {
-  background-color: pink;
-}
 
 
-
-/*Farve for alle divs hvor "introHistorie er div"
-Rammer både ".container.introHistorie"
-og "wrapper.introHistorie"*/
-.introHistorie{
-  background-color: green;
-}
-.indholdsoversigt{
-  background-color: yellow;
-  text-align: center;
-}
-
-.katalog{
-  background-color: orange;
-}
-.kommendeEvents{
-  background-color: pink;
-}
-.googleMaps{
-  background-color: brown;
-  height: 20vh;
-}
-
-
-
-
-
-
-
-
-
-/*Full width footer   */
-.fullWidthFooter {
-  background-color: #101010;
-  width: 100%;
-}
-/*Fixed width footer  */
-footer {
-  background-color: #34495e;;
-}
 
 
 /* Indhold på  index side */

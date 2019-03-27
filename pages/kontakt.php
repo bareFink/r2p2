@@ -41,10 +41,10 @@
     <div class="row indholdsoversigt">
       <!--Opsætter kolonner der hver fylder 3 ud af 12 bredde (tjek hjemmeside skeletons hjemmeside)  -->
       <div class="three columns">
-        <h2>RESTAURANT</h2>
+        <h2>Bestil online:</h2>
       </div>
       <div class="three columns">
-        <h2>BAR</h2>
+        <a class="button button-primary" href="#">BAR</a>
       </div>
       <div class="three columns">
         <h2>EVENTS</h2>

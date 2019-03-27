@@ -13,7 +13,10 @@ font-family: 'Poppins', sans-serif;
 /*Full width navigation   */
 .navigationbar {
   background-color: #101010;;
-  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; 
+  }
 }
 /*Fixed width header*/
 nav {

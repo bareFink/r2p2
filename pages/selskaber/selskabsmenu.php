@@ -36,22 +36,31 @@
 <div class="wrapper indholdsoversigt">
   <!--Indhold centreret i wrapper-->
   <div class="container indholdsoversigt">
-    <h1> Her kommer der til at være en indholdsoversigt </h1>
+    <h1> Forretter </h1>
     <!-- opretter række, som elementer let kan placeres i-->
     <div class="row indholdsoversigt">
-      <!--Opsætter kolonner der hver fylder 3 ud af 12 bredde (tjek hjemmeside skeletons hjemmeside)  -->
-      <div class="three columns">
-        <h2>RESTAURANT</h2>
-      </div>
-      <div class="three columns">
-        <h2>BAR</h2>
-      </div>
-      <div class="three columns">
-        <h2>EVENTS</h2>
-      </div>
-      <div class="three columns">
-        <h2>SELSKABER</h2>
-      </div>
+      <!--Opsætter 2 kolonner der hver fylder 5 ud af 12 bredde (tjek hjemmeside skeletons hjemmeside)  -->
+       <div class="six columns">
+        <div class="SMenu-textleft"> 
+         <h5> Klar suppe</h5>
+         <p> Med Boller of flutes</p>
+         <h5>*Flødegeleret aspargessuppe </h5>
+         <p> Med kødboller og flutes</p>
+         <h5> Karrysuppe </h5>
+         <p> Med ris, hønskekød, og flutes</p>
+         <h5> Hønsesalat </h5>
+         <p>På ananasring og flutes</p>
+        </div>
+       </div>
+       <div class="six columns">
+        <div class="SMenu-textleft">
+         <h5>- per couv. 52 kr,-</h5><br>
+         <h5>- per couv. 52 kr,-</h5><br>
+         <h5>- per couv. 52 kr,-</h5><br>
+         <h5>- per couv. 52 kr,-</h5><br>
+        </div>
+        
+       </div>
     </div>
   </div>
 </div>

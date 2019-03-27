@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!--Side titel  -->
-  <title>Café Frederiksberg</title>
+  <title> text   Café Frederiksberg</title>
   <!--Standard stylesheet  -->
   <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
   <!-- Skeleton stylesheet  -->

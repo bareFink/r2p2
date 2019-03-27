@@ -1,4 +1,4 @@
-<div class="navigationsbar">
+<div class="navigationbar">
   <nav class="container">
     <div class="logo">
     <h4 id="logo"> Café Frederiksberg</h4>

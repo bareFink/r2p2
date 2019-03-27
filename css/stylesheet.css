@@ -87,7 +87,10 @@ nav {
   color: #F9DB41;
   display: inline;
 }
-
+.navigationmenu {
+  display: inline;
+  float: right;
+}
 /*..............................................C HEADER */
 
 /*..............................................D FOOTER */

@@ -21,61 +21,60 @@
   <div class="content slider">
     <h1> Her kommer der til at være en slider </h1>
   </div>
-  </div>
-
-
   <!--Eksempel m. 3-delt container og overskrift  -->
   <div class="wrapper indholdsoversigt">
     <!--Indhold centreret i wrapper-->
     <div class="container indholdsoversigt">
-      <h1> Her kommer der til at være en indholdsoversigt </h1>
+
       <!-- opretter række, som elementer let kan placeres i-->
       <div class="row indholdsoversigt">
         <!--Opsætter kolonner der hver fylder 3 ud af 12 bredde (tjek hjemmeside skeletons hjemmeside)  -->
         <div class="one-half column">
           <h4>ØL & VAND</h4>
-          <div id="drink_navn">
+          <div style="float: left; width: 75%;">
             <ul>
-              <strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)
-              <dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</dt>
-            </ul>
-            <ul>
-              <strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)
-              <dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</dt>
-            </ul>
-            <ul>
-              <strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)
-              <dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</dt>
-            </ul>
-            <ul>
-              <strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)
-              <dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</dt>
-            </ul>
-            <ul>
-              <strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)
-              <dt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</dt>
+              <li><strong>Fyraftensøl</strong> (hverdage kl. 16.00 - 18.00)</li>
+              <li>Left Item 2</li>
+              <li>Left Item 3</li>
+              <li>Left Item 4</li>
+              <li>Left Item 5</li>
             </ul>
           </div>
-          <div id="drink_pris">
-            <ul>10,-</ul>
-            <ul>10,-</ul>
-            <ul>10,-</ul>
-            <ul>10,-</ul>
-            <ul>10,-</ul>
-            <ul>10,-</ul>
+          <div style="float: right; width: 0%;">
+            <ul>
+              <li>Right Item 1</li>
+              <li>Right Item 2</li>
+              <li>Right Item 3</li>
+              <li>Right Item 4</li>
+              <li>Right Item 5</li>
+            </ul>
           </div>
         </div>
         <div class="one-half column">
           <h4>VARME DRIKKE</h4>
+          <div style="float: left; width: 50%;">
+            <ul>
+              <li>Left Item 1</li>
+              <li>Left Item 2</li>
+              <li>Left Item 3</li>
+              <li>Left Item 4</li>
+              <li>Left Item 5</li>
+            </ul>
+          </div>
+          <div style="float: right; width: 50%;">
+            <ul>
+              <li>Right Item 1</li>
+              <li>Right Item 2</li>
+              <li>Right Item 3</li>
+              <li>Right Item 4</li>
+              <li>Right Item 5</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <!--Indrag footer fra filen includes/footer.php-->
   <?php include '../includes/footer.php'; ?>

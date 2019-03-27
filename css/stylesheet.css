@@ -163,6 +163,16 @@ nav {
 
 /*..............................................3 BAR */
 
+#drink_navn {
+  color: black;
+  float: left;
+}
+
+#right_bar {
+  float: right;
+}
+
+
 /*..............................................4 BOOKING */
 
 /*..............................................5 EVENTS */
@@ -244,14 +254,4 @@ footer {
 /*Indhold på template side  */
 .template {
   background-color: #101010;
-}
-
-/* Drinks i højre side */
-#drink_navn {
-  color: black;
-  float: left;
-}
-
-#drink_pris {
-  float: right;
 }

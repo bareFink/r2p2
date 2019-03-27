@@ -64,19 +64,14 @@ font-family: 'Poppins', sans-serif;
 */
 
 
-<<<<<<< HEAD
 /*..............................................B NAVIATIONSBAR */
-.fullWidthNavigation {
-=======
 /*Full width navigation   */
 .navigationbar {
->>>>>>> 0821f372832b8073f3821bbd879ed077ec00dd09
   background-color: #101010;;
   position: fixed; /* Set the navbar to fixed position */
    top: 0; /* Position the navbar at the top of the page */
-   width: 100%; 
+   width: 100%;
   }
-}
 
 /*Fixed width header*/
 nav {
@@ -91,9 +86,49 @@ nav {
 
 /*..............................................D FOOTER */
 
+/*Full width footer   */
+.fullWidthFooter {
+  background-color: #101010;
+  width: 100%;
+}
+/*Fixed container in footer  */
+footer {
+  background-color: #34495e;;
+}
+
+
 /*..............................................E GENEREL */
 
 /*..............................................1 INDEX */
+.slider {
+  background-color: blue;
+  height: 80vh;
+}
+/*Wrapper farve for onlineBestilling  */
+.wrapper.onlineBestilling{
+  background-color: red;
+}
+/*Container farve for onlineBestilling  */
+.container.onlineBestilling {
+  background-color: pink;
+}
+.introHistorie{
+  background-color: green;
+}
+.indholdsoversigt{
+  background-color: yellow;
+  text-align: center;
+}
+.katalog{
+  background-color: orange;
+}
+.kommendeEvents{
+  background-color: pink;
+}
+.googleMaps{
+  background-color: brown;
+  height: 20vh;
+}
 
 /*..............................................2 ADMIN */
 
@@ -108,62 +143,8 @@ nav {
 /*..............................................7 RESTAURANT */
 
 
-/*Forside  */
-.slider {
-  background-color: blue;
-  height: 80vh;
-}
-
-/*Wrapper farve for onlineBestilling  */
-.wrapper.onlineBestilling{
-  background-color: red;
-}
-/*Container farve for onlineBestilling  */
-.container.onlineBestilling {
-  background-color: pink;
-}
 
 
-
-/*Farve for alle divs hvor "introHistorie er div"
-Rammer både ".container.introHistorie"
-og "wrapper.introHistorie"*/
-.introHistorie{
-  background-color: green;
-}
-.indholdsoversigt{
-  background-color: yellow;
-  text-align: center;
-}
-
-.katalog{
-  background-color: orange;
-}
-.kommendeEvents{
-  background-color: pink;
-}
-.googleMaps{
-  background-color: brown;
-  height: 20vh;
-}
-
-
-
-
-
-
-
-
-
-/*Full width footer   */
-.fullWidthFooter {
-  background-color: #101010;
-  width: 100%;
-}
-/*Fixed width footer  */
-footer {
-  background-color: #34495e;;
-}
 
 
 /* Indhold på  index side */

@@ -77,9 +77,15 @@ font-family: 'Poppins', sans-serif;
 nav {
   background-color: #34495e;
 }
+
 /*Placeholder for logo  */
+
+.logo {
+  display: inline;
+}
 #logo {
   color: #F9DB41;
+  display: inline;
 }
 
 /*..............................................C HEADER */
@@ -90,6 +96,11 @@ nav {
 .fullWidthFooter {
   background-color: #101010;
   width: 100%;
+}
+
+.navigationmenu > p {
+  display: inline;
+
 }
 /*Fixed container in footer  */
 footer {

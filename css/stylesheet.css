@@ -5,9 +5,6 @@
         BAIT INF
         2019
 */
-
-/* CONTENT */
-
 /*
 
 A. FONTS
@@ -27,13 +24,15 @@ E. GENEREL
 
 COLORS
 #CCB380
-
-
 */
 
 /*..............................................A FONTS */
 
+<<<<<<< HEAD
 h1,
+=======
+<<<<<<< HEAD h1,
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
 h2,
 h3,
 h4,
@@ -43,6 +42,7 @@ h6 {
   margin-bottom: 2rem;
   font-weight: 300;
 }
+<<<<<<< HEAD
 
 h1 {
   font-size: 4.0rem;
@@ -82,6 +82,108 @@ h6 {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
+=======
+
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+}
+
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+=======html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+h1 {
+  font-size: 4.0rem;
+  line-height: 1.2;
+  letter-spacing: -.1rem;
+  font-weight: 700;
+  font-family: "Playfair+Display"
+}
+
+h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+  font-weight: 700;
+  font-family: "Playfair+Display"
+}
+
+h3 {
+  font-size: 3.0rem;
+  line-height: 1.3;
+  letter-spacing: -.1rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+>>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229 @media (min-width: 550px) {
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
   h1 {
     font-size: 5.0rem;
   }
@@ -110,6 +212,20 @@ h6 {
 p {
   margin-top: 0;
 }
+<<<<<<< HEAD
+=======
+
+/* H1 = HEADER TEXT */
+/* H2 = OVERSKRIFTER */
+/* H3 = EVENTS TITEL (POPPINS BOLD) */
+/* H4 = */
+/* H5 = KONTAKT ÅBNINGSTIDER */
+/* H6 = */
+
+/* Larger than phablet */
+
+
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
 
 
 /* GOOGLE FONTS (ADD WEIGTH + SIZE)
@@ -119,10 +235,21 @@ font-family: 'Poppins', sans-serif;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*..............................................B NAVIATIONSBAR */
 .fullWidthNavigation {
   =======
+=======
+<<<<<<< HEAD <<<<<<< HEAD=======>>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229
+
+/*..............................................B NAVIATIONSBAR */
+<<<<<<< HEAD .fullWidthNavigation {
+  <<<<<<< HEAD <<<<<<< HEAD background-color: #101010;
+  ;
+  width: 100%;
+  ==============
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
 
   /*Full width navigation   */
   .navigationbar {
@@ -134,7 +261,27 @@ font-family: 'Poppins', sans-serif;
     /* Position the navbar at the top of the page */
     width: 100%;
   }
+<<<<<<< HEAD
+=======
+
+  >>>>>>>d0d77f9a8dec9e809cedbf407812d59909cbe0c1
 }
+
+==============
+
+/*Full width navigation   */
+.navigationbar {
+  >>>>>>>71d27a4b5b73092fe34396d86d7ea9d2a6d27849 background-color: #101010;
+  ;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
+}
+
+>>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229
 
 /*Fixed width header*/
 nav {
@@ -142,34 +289,56 @@ nav {
 }
 
 /*Placeholder for logo  */
+.logo {
+  display: inline;
+}
+
 #logo {
   color: #F9DB41;
+  display: inline;
+}
+
+/*Navigationsmenu  */
+.navigationmenu {
+  display: inline;
+  float: right;
 }
 
 /*..............................................C HEADER */
 
+slide.content
 /*..............................................D FOOTER */
 
-/*..............................................E GENEREL */
-
-/*..............................................1 INDEX */
-
-/*..............................................2 ADMIN */
-
-/*..............................................3 BAR */
 
 /*..............................................4 BOOKING */
+=======
 
-/*..............................................5 EVENTS */
+/*Full width footer   */
+.fullWidthFooter {
+  background-color: #101010;
+  width: 100%;
+}
 
-/*..............................................6 KONTAKT */
+>>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229 .navigationmenu>p {
+  display: inline;
 
-/*..............................................7 RESTAURANT */
+}
 
+/*Fixed container in footer  */
+footer {
+  background-color: #34495e;
+  ;
+}
+
+
+<<<<<<< HEAD
 /*..............................................8 SELSKABSMENU */
 
+=======
+/*..............................................E GENEREL */
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
 
-/*Forside  */
+/*..............................................1 INDEX */
 .slider {
   background-color: blue;
   height: 80vh;
@@ -185,12 +354,13 @@ nav {
   background-color: pink;
 }
 
-
+<<<<<<< HEAD
 
 /*Farve for alle divs hvor "introHistorie er div"
 Rammer både ".container.introHistorie"
 og "wrapper.introHistorie"*/
 .introHistorie {
+<<<<<<< HEAD
   background-color: green;
 }
 
@@ -211,15 +381,42 @@ og "wrapper.introHistorie"*/
   background-color: brown;
   height: 20vh;
 }
+=======
+  =======.introHistorie {
+    >>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229 background-color: green;
+  }
 
+  .indholdsoversigt {
+    background-color: yellow;
+    text-align: center;
+  }
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb
 
+  <<<<<<< HEAD .katalog {
+    =======.katalog {
+      >>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229 background-color: orange;
+    }
 
+    .kommendeEvents {
+      background-color: pink;
+    }
 
+    .googleMaps {
+      background-color: brown;
+      height: 20vh;
+    }
 
+    /*..............................................2 ADMIN */
 
+    /*..............................................3 BAR */
 
+    /*..............................................4 BOOKING */
 
+    /*..............................................5 EVENTS */
 
+    /*..............................................6 KONTAKT */
+
+<<<<<<< HEAD
 /*Full width footer   */
 .fullWidthFooter {
   background-color: #101010;
@@ -252,3 +449,35 @@ footer {
 .SMenu-textleft {
   text-align: left
 }
+=======
+    /*..............................................7 RESTAURANT */
+
+
+
+
+    <<<<<<< HEAD
+
+    /*Full width footer   */
+    .fullWidthFooter {
+      background-color: #101010;
+      width: 100%;
+    }
+
+    /*Fixed width footer  */
+    footer {
+      background-color: #34495e;
+      ;
+    }
+
+    =======>>>>>>>7b90678193c1e26f3e496a4d767db2eb1f939229
+
+    /* Indhold på  index side */
+    .index {
+      background-color: #101010;
+    }
+
+    /*Indhold på template side  */
+    .template {
+      background-color: #101010;
+    }
+>>>>>>> a30690809504cb06a377fc019268bb3444fd60eb

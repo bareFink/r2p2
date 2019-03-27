@@ -64,10 +64,18 @@ font-family: 'Poppins', sans-serif;
 */
 
 
+<<<<<<< HEAD
 /*..............................................B NAVIATIONSBAR */
 .fullWidthNavigation {
+=======
+/*Full width navigation   */
+.navigationbar {
+>>>>>>> 0821f372832b8073f3821bbd879ed077ec00dd09
   background-color: #101010;;
-  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; 
+  }
 }
 
 /*Fixed width header*/

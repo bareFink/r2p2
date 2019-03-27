@@ -79,7 +79,6 @@ nav {
 }
 
 /*Placeholder for logo  */
-
 .logo {
   display: inline;
 }
@@ -87,11 +86,15 @@ nav {
   color: #F9DB41;
   display: inline;
 }
+/*Navigationsmenu  */
 .navigationmenu {
   display: inline;
   float: right;
 }
+
 /*..............................................C HEADER */
+
+slide.content
 
 /*..............................................D FOOTER */
 

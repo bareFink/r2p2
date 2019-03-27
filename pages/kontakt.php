@@ -47,10 +47,10 @@
         <a class="button button-primary" href="#">BAR</a>
       </div>
       <div class="three columns">
-        <h2>EVENTS</h2>
+        <a class="button button-primary" href="#">BORD</a>
       </div>
       <div class="three columns">
-        <h2>SELSKABER</h2>
+        <a class="button button-primary" href="#">BILETTER</a>
       </div>
     </div>
   </div>
